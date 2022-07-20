@@ -1,11 +1,12 @@
 esphome:
-  name: plug2
+  name: plug1
   platform: ESP8266
   board: esp8285
 
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+  power_save_mode: none
 
 # Enable logging
 logger:
